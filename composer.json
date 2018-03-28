@@ -1,8 +1,8 @@
 {
-    "name": "aacotroneo/laravel-saml2",
+    "name": "axeloz/laravel-saml2",
     "description": "A Laravel package for Saml2 integration as a SP (service provider) based on OneLogin toolkit, which is much lightweight than simplesamlphp",
     "keywords": ["laravel","saml", "saml2", "onelogin"],
-    "homepage": "https://github.com/aacotroneo/laravel-saml2",
+    "homepage": "https://github.com/axeloz/laravel-saml2",
     "license": "MIT",
     "version": "0.11.1",
     "authors": [
@@ -22,16 +22,16 @@
     },
     "autoload": {
         "psr-0": {
-            "Aacotroneo\\Saml2\\": "src/"
+            "Axeloz\\Saml2\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Aacotroneo\\Saml2\\Saml2ServiceProvider"
+                "Axeloz\\Saml2\\Saml2ServiceProvider"
             ],
             "aliases": {
-                "Saml2": "Aacotroneo\\Saml2\\Facades\\Saml2Auth"
+                "Saml2": "Axeloz\\Saml2\\Facades\\Saml2Auth"
             }
         }
     },
